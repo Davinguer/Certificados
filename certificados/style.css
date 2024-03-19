@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Madimi+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap' );
+
+:root{
+    --fonte-global:'work sans';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(23, 27, 38, 0.822);
+    font-family: var(--fonte-global);
+}
+
+header{
+    background-color: rgba(23, 27, 38, 0.747);
+    padding: 20px;
+    color: #ffff;
+}
+
+header > img{
+    display: inline;
+}
+
+
+
+header h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+header p{
+    text-align:center;
+    max-width: 500px;
+    margin: auto;
+}
+
+span{
+    color:  #04aa6d;
+}
+
+nav{
+    background-color: #171b26;
+    padding: 20px;
+    min-width: 200px;
+}
+
+nav a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px;
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    background-color: rgb(37, 44, 61);
+}
+
+.home{
+    background-color:  #04aa6d;
+    color: black;
+}
+
+.home:hover{
+    background-color:  #04aa6d;
+}
+
+main{
+    background-color: aliceblue;
+    max-width: 900px;
+    min-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h2{
+    padding: 10px;
+}
+
+p{
+    padding: 20px;
+    text-align: justify;
+}
+
+main img{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer{
+    background-color:  #04aa6d;
+    color: #ffff;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
